@@ -1,0 +1,55 @@
+body {
+    font-family: var(--ff);
+}
+
+.card {
+    text-align: center;
+
+    .card__info__title {
+        font-weight: 900;
+    }
+    .card__info__text {
+        color: var(--desaturated-blue);
+        font-size: 1rem;
+    }
+
+    .card__pricing__plan {
+        font-weight: 900;
+        font-size: .9rem;
+    }
+
+    .card__pricing__price {
+        color: var(--desaturated-blue);
+        font-size: .9rem;
+    }
+
+    .card__pricing_link {
+        font-size: .9rem;
+        font-weight: 900;
+    }
+
+    .card__pricing_link:hover,
+    .card__pricing_link:focus    {
+        text-decoration: none;
+        opacity: .8;
+    }
+
+    .card__footer {
+        .card__footer__payment {        
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .card__footer__cancel {
+            color: var(--desaturated-blue);
+            text-decoration: none;
+            font-weight: 900;            
+        }
+
+        .card__footer__cancel:hover,
+        .card__footer__cancel:focus {
+            color: black;
+        }
+    }
+}
